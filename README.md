@@ -18,3 +18,7 @@ Constructors are extensively used in this design. It is used in a way that it al
 The main requirements are provided in the driver class( "MainClass" ).
 
 The database has to be manually updated once to contain details of new customers.(Once a user is added for the first time then that data remains in the .db file for later use)
+
+sqlite-jdbc-3.32.3.2  .jar file was used to implement the database. A .db file is also added in this repo, which contains a few transactions done in the past.
+
+Tasks like displaying MiniStatement, Processing fee etc. has been added this time. Transfer of cash is only possible during depositing(in this design).
